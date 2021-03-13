@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="135">
+	<RootPaths>
+		<ProjectRoot>/Users/alex/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Desktop/sound-designer-alexei-avdoteiko/sound-designer-alexei-avdoteiko_WwiseProject/</ProjectRoot>
+		<SourceFilesRoot>/Users/alex/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Desktop/sound-designer-alexei-avdoteiko/sound-designer-alexei-avdoteiko_WwiseProject/.cache/Windows/</SourceFilesRoot>
+		<SoundBanksRoot>/Users/alex/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Desktop/sound-designer-alexei-avdoteiko/sound-designer-alexei-avdoteiko_WwiseProject/GeneratedSoundBanks/Windows/</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>/Users/alex/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Desktop/sound-designer-alexei-avdoteiko/sound-designer-alexei-avdoteiko_WwiseProject/GeneratedSoundBanks/Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX" Hash="4204904655">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="4056684167" Language="SFX" Hash="3308945584">
+			<ObjectPath>\SoundBanks\Default Work Unit\master</ObjectPath>
+			<ShortName>master</ShortName>
+			<Path>master.bnk</Path>
+			<IncludedEvents>
+				<Event Id="2678880713" Name="fire" ObjectPath="\Events\Default Work Unit\fire" MaxAttenuation="25.000000" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="917922186" Language="SFX">
+							<ShortName>OBJ-fire-torch-loop.wav</ShortName>
+							<Path>SFX/OBJ-fire-torch-loop_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

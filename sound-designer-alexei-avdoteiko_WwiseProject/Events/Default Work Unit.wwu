@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{3F16C368-FBE1-4BD8-823C-8B21419FFD62}" SchemaVersion="97">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{3F16C368-FBE1-4BD8-823C-8B21419FFD62}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="fire" ID="{A0F67554-60C4-43B8-8AC5-707C8AD6D366}">
+					<ChildrenList>
+						<Action Name="" ID="{F6BB26FE-9A38-4174-B08B-35AEF72CA9CE}" ShortID="758668884">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="OBJ-fire-torch-loop" ID="{272A5877-3B7A-4A87-BBC1-2CF2A71E7DB4}" WorkUnitID="{F8B70FD9-10CD-4819-821D-685B835D450B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

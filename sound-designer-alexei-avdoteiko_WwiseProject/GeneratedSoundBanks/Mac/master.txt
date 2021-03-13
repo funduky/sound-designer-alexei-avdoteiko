@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2678880713	fire			\Default Work Unit\fire	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	917922186	OBJ-fire-torch-loop	Y:\Desktop\sound-designer-alexei-avdoteiko\sound-designer-alexei-avdoteiko_WwiseProject\.cache\Mac\SFX\OBJ-fire-torch-loop_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\OBJ-fire-torch-loop		2013700
+

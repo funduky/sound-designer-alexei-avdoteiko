@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{F8B70FD9-10CD-4819-821D-685B835D450B}" SchemaVersion="97">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{F8B70FD9-10CD-4819-821D-685B835D450B}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="OBJ-fire-torch-loop" ID="{272A5877-3B7A-4A87-BBC1-2CF2A71E7DB4}" ShortID="291520248">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="New Attenuation" ID="{63DD47A8-0930-4634-9D86-35F2F6D8D651}" WorkUnitID="{FBB81080-375F-4495-A179-52164F108927}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F8B1C374-AF4A-4649-BC6C-5144A728AB3F}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4F950FAA-2698-4F2E-A843-344C42CA85CD}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="OBJ-fire-torch-loop" ID="{DAB955F6-D355-4305-ABAB-D9B5B2E89076}">
+							<Language>SFX</Language>
+							<AudioFile>OBJ-fire-torch-loop.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="917922186"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="OBJ-fire-torch-loop" ID="{DAB955F6-D355-4305-ABAB-D9B5B2E89076}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
