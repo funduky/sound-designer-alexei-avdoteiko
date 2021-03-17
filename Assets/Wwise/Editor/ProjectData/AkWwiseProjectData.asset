@@ -30,7 +30,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: aa0f954f98262e4fa843344c42ca85cd
     GuidInternal: 
-    m_lastTime: -8585859422634775808
+    m_lastTime: -8585856391514775808
     List:
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
@@ -41,6 +41,54 @@ MonoBehaviour:
       - ElementName: Master Audio Bus
         ObjectType: 2
       Path: Default Work Unit/Master Audio Bus
+    - name: Music
+      guid: 2c2d13cd9e62024c9c5211796e0e1ac9
+      id: 3991942870
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+      - ElementName: Music
+        ObjectType: 2
+      Path: Default Work Unit/Master Audio Bus/Music
+    - name: Reverb
+      guid: 3ac0c792415d8e4bab1e0c6988ac125a
+      id: 348963605
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+      - ElementName: SFX
+        ObjectType: 2
+      - ElementName: Reverb
+        ObjectType: 1
+      Path: Default Work Unit/Master Audio Bus/SFX/Reverb
+    - name: Reverb_2
+      guid: 3c11ba2b06648045b007edf20484e796
+      id: 35548098
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+      - ElementName: SFX
+        ObjectType: 2
+      - ElementName: Reverb_2
+        ObjectType: 1
+      Path: Default Work Unit/Master Audio Bus/SFX/Reverb_2
+    - name: SFX
+      guid: 0cd1b0a92fe1554fb7f0940da922b158
+      id: 393239870
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+      - ElementName: SFX
+        ObjectType: 2
+      Path: Default Work Unit/Master Audio Bus/SFX
   BankWwu:
   - PhysicalPath: SoundBanks/Default Work Unit.wwu
     PathAndIcons:
@@ -49,7 +97,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: faeae404e55d32499b4f9982441df09d
     GuidInternal: 
-    m_lastTime: -8585859420934775808
+    m_lastTime: -8585856400854775808
     List:
     - name: master
       guid: 1c580214b253424a84c8f634314d3abc
@@ -68,18 +116,186 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 68c3163fe1fbd84b823c8b21419ffd62
     GuidInternal: 
-    m_lastTime: -8585859420934775808
+    m_lastTime: -8585856400854775808
     List:
-    - name: fire
-      guid: 5475f6a0c460b8438ac5707c8ad6d366
-      id: 2678880713
+    - name: Amb_Inside
+      guid: be5bec632d692c4499ca2427813e4129
+      id: 1564366702
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
-      - ElementName: fire
+      - ElementName: Amb_Inside
         ObjectType: 3
-      Path: Default Work Unit/fire
-      maxAttenuation: 25
+      Path: Default Work Unit/Amb_Inside
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Amb_Outside
+      guid: c1595b355e6cd1458c90b035a6557b0a
+      id: 1013211851
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Amb_Outside
+        ObjectType: 3
+      Path: Default Work Unit/Amb_Outside
+      maxAttenuation: 20
+      maxDuration: -1
+      minDuration: -1
+    - name: D_Constraction
+      guid: dad4fd3ff6bd124a9e29e50d9ca697f0
+      id: 3218541849
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: D_Constraction
+        ObjectType: 3
+      Path: Default Work Unit/D_Constraction
+      maxAttenuation: 8
+      maxDuration: -1
+      minDuration: -1
+    - name: D_Crowd
+      guid: 0f1fd6a29ac90643b3f7781de36c1539
+      id: 1589574917
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: D_Crowd
+        ObjectType: 3
+      Path: Default Work Unit/D_Crowd
+      maxAttenuation: 8
+      maxDuration: -1
+      minDuration: -1
+    - name: D_Dog
+      guid: 87a3669c7a71b745ad269c4e2b362b44
+      id: 4001482824
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: D_Dog
+        ObjectType: 3
+      Path: Default Work Unit/D_Dog
+      maxAttenuation: 8
+      maxDuration: -1
+      minDuration: -1
+    - name: D_Drumming
+      guid: 0640d011e468294c9a2364033f6907d6
+      id: 3445241757
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: D_Drumming
+        ObjectType: 3
+      Path: Default Work Unit/D_Drumming
+      maxAttenuation: 8
+      maxDuration: -1
+      minDuration: -1
+    - name: D_Fight
+      guid: da50ac9ab115bd4b9ec9b7efedfc09ca
+      id: 2021402380
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: D_Fight
+        ObjectType: 3
+      Path: Default Work Unit/D_Fight
+      maxAttenuation: 8
+      maxDuration: -1
+      minDuration: -1
+    - name: D_Phone
+      guid: 5ebb834d306f7141839990a5824677f1
+      id: 4204937310
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: D_Phone
+        ObjectType: 3
+      Path: Default Work Unit/D_Phone
+      maxAttenuation: 8
+      maxDuration: -1
+      minDuration: -1
+    - name: D_Scream
+      guid: 9f03839314cc734c8ccca1f3e56ef861
+      id: 3357276237
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: D_Scream
+        ObjectType: 3
+      Path: Default Work Unit/D_Scream
+      maxAttenuation: 8
+      maxDuration: -1
+      minDuration: -1
+    - name: D_Sex
+      guid: 8a32a2e998e49042ba47e976ef5f548b
+      id: 3628976722
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: D_Sex
+        ObjectType: 3
+      Path: Default Work Unit/D_Sex
+      maxAttenuation: 8
+      maxDuration: -1
+      minDuration: -1
+    - name: D_TV
+      guid: 333fdfd21a3b02489473042c1373a950
+      id: 2305070748
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: D_TV
+        ObjectType: 3
+      Path: Default Work Unit/D_TV
+      maxAttenuation: 8
+      maxDuration: -1
+      minDuration: -1
+    - name: Foot
+      guid: 9b085b8360795343adb384152be21e94
+      id: 3031504797
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Foot
+        ObjectType: 3
+      Path: Default Work Unit/Foot
+      maxAttenuation: 0
+      maxDuration: 0.684566
+      minDuration: 0.417114
+    - name: Jump
+      guid: eefddf68f433644ea1e68925ab082564
+      id: 3833651337
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Jump
+        ObjectType: 3
+      Path: Default Work Unit/Jump
+      maxAttenuation: 0
+      maxDuration: 0.600402
+      minDuration: 0.551226
+    - name: Lamp
+      guid: 71a943ce0947ed49b6a12cd845b07aa5
+      id: 657744959
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Lamp
+        ObjectType: 3
+      Path: Default Work Unit/Lamp
+      maxAttenuation: 5
+      maxDuration: -1
+      minDuration: -1
+    - name: Music_Start
+      guid: 705cf1a9841da24dbad67b950dcc0a7b
+      id: 3725903807
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Music_Start
+        ObjectType: 3
+      Path: Default Work Unit/Music_Start
+      maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
   RtpcWwu:
@@ -90,8 +306,17 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 4cbef85593defc4bbd67c1ed8e17927e
     GuidInternal: 
-    m_lastTime: -8585859422634775808
-    List: []
+    m_lastTime: -8585858578254775808
+    List:
+    - name: Azimuth
+      guid: f68b21ad339c5640b6e6995537f89407
+      id: 1437246667
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Azimuth
+        ObjectType: 13
+      Path: Default Work Unit/Azimuth
   StateWwu:
   - PhysicalPath: States/Default Work Unit.wwu
     PathAndIcons:
@@ -110,8 +335,33 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 020405972f4243468b9aba534115cd18
     GuidInternal: 
-    m_lastTime: -8585859422634775808
-    List: []
+    m_lastTime: -8585858600044775808
+    List:
+    - name: Surface
+      guid: 682d1e5026418044af78f763ae4039da
+      id: 1834394558
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Surface
+        ObjectType: 11
+      Path: Default Work Unit/Surface
+      values:
+      - name: Concrete
+        guid: c9f24131f6efd24ca520a9b7ddf453bc
+        id: 841620460
+        PathAndIcons:
+        - ElementName: Concrete
+          ObjectType: 10
+      - name: Stone
+        guid: 3e0a035c838c6248822d9b004b369895
+        id: 1216965916
+        PathAndIcons:
+        - ElementName: Stone
+          ObjectType: 10
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
   TriggerWwu:
   - PhysicalPath: Triggers/Default Work Unit.wwu
     PathAndIcons:
@@ -122,6 +372,9 @@ MonoBehaviour:
     GuidInternal: 
     m_lastTime: -8585859422634775808
     List: []
-  ExpandedItems: []
+  ExpandedItems:
+  - /sound-designer-alexei-avdoteiko_WwiseProject
+  - /sound-designer-alexei-avdoteiko_WwiseProject/Events
+  - /sound-designer-alexei-avdoteiko_WwiseProject/Events/Default Work Unit
   autoPopulateEnabled: 1
   CurrentPluginConfig: 

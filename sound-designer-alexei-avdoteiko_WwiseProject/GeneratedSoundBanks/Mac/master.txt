@@ -1,6 +1,91 @@
 Event	ID	Name			Wwise Object Path	Notes
-	2678880713	fire			\Default Work Unit\fire	
+	657744959	Lamp			\Default Work Unit\Lamp	
+	1013211851	Amb_Outside			\Default Work Unit\Amb_Outside	
+	1564366702	Amb_Inside			\Default Work Unit\Amb_Inside	
+	1589574917	D_Crowd			\Default Work Unit\D_Crowd	
+	2021402380	D_Fight			\Default Work Unit\D_Fight	
+	2305070748	D_TV			\Default Work Unit\D_TV	
+	3031504797	Foot			\Default Work Unit\Foot	
+	3218541849	D_Constraction			\Default Work Unit\D_Constraction	
+	3357276237	D_Scream			\Default Work Unit\D_Scream	
+	3445241757	D_Drumming			\Default Work Unit\D_Drumming	
+	3628976722	D_Sex			\Default Work Unit\D_Sex	
+	3725903807	Music_Start			\Default Work Unit\Music_Start	
+	3833651337	Jump			\Default Work Unit\Jump	
+	4001482824	D_Dog			\Default Work Unit\D_Dog	
+	4204937310	D_Phone			\Default Work Unit\D_Phone	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	1834394558	Surface			\Default Work Unit\Surface	
+
+Switch	ID	Name	Switch Group			Notes
+	841620460	Concrete	Surface			
+	1216965916	Stone	Surface			
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	1437246667	Azimuth			\Default Work Unit\Azimuth	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	917922186	OBJ-fire-torch-loop	Y:\Desktop\sound-designer-alexei-avdoteiko\sound-designer-alexei-avdoteiko_WwiseProject\.cache\Mac\SFX\OBJ-fire-torch-loop_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\OBJ-fire-torch-loop		2013700
+	10186480	PC-Ftstps-Concrete_1	Y:\Desktop\sound-designer-alexei-avdoteiko\sound-designer-alexei-avdoteiko_WwiseProject\.cache\Mac\SFX\pc\PC-Ftstps-Concrete_1_477006A4.wem		\Actor-Mixer Hierarchy\Default Work Unit\PC\Footsteps\Concrete\PC-Ftstps-Concrete_1		37156
+	37949936	Obj-Dog_1	Y:\Desktop\sound-designer-alexei-avdoteiko\sound-designer-alexei-avdoteiko_WwiseProject\.cache\Mac\SFX\obj\Obj-Dog_1_477006A4.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\D_Dog\Obj-Dog_1		64710
+	46320846	Obj-Crowd_1	Y:\Desktop\sound-designer-alexei-avdoteiko\sound-designer-alexei-avdoteiko_WwiseProject\.cache\Mac\SFX\obj\Obj-Crowd_1_9BF8A7FE.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\D_Crowd\Obj-Crowd_1		1661446
+	48770695	Amb-Buzz-Light_4	Y:\Desktop\sound-designer-alexei-avdoteiko\sound-designer-alexei-avdoteiko_WwiseProject\.cache\Mac\SFX\amb\Amb-Buzz-Light_4_38FB226F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Buzz Light\Amb-Buzz-Light_4		50242
+	61779686	mud - 0001 - Instrument - piano	Y:\Desktop\sound-designer-alexei-avdoteiko\sound-designer-alexei-avdoteiko_WwiseProject\.cache\Mac\SFX\mud - 0001 - Instrument - piano_850932ED.wem		\Interactive Music Hierarchy\Default Work Unit\Mud88\mix1\mud - 0001 - Instrument - piano		999751
+	110043504	Obj-Fight-VO_5	Y:\Desktop\sound-designer-alexei-avdoteiko\sound-designer-alexei-avdoteiko_WwiseProject\.cache\Mac\SFX\obj\Obj-Fight-VO_5_477006A4.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\D_Fight\Fight VO\Obj-Fight-VO_5		133268
+	127313855	Footsteps, Stone, Male, Sneakers, Normal Tempo SND4064 (4)	Y:\Desktop\sound-designer-alexei-avdoteiko\sound-designer-alexei-avdoteiko_WwiseProject\.cache\Mac\SFX\pc\Footsteps, Stone, Male, Sneakers, Normal Tempo SND4064 (4)_477006A4.wem		\Actor-Mixer Hierarchy\Default Work Unit\PC\Footsteps\Stone\Footsteps, Stone, Male, Sneakers, Normal Tempo SND4064 (4)		25620
+	168701595	Obj-Drilling_6	Y:\Desktop\sound-designer-alexei-avdoteiko\sound-designer-alexei-avdoteiko_WwiseProject\.cache\Mac\SFX\obj\Obj-Drilling_6_477006A4.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\D_Constraction\Obj-Drilling_6		401338
+	184097812	Footsteps, Stone, Male, Sneakers, Normal Tempo SND4064 (2)	Y:\Desktop\sound-designer-alexei-avdoteiko\sound-designer-alexei-avdoteiko_WwiseProject\.cache\Mac\SFX\pc\Footsteps, Stone, Male, Sneakers, Normal Tempo SND4064 (2)_477006A4.wem		\Actor-Mixer Hierarchy\Default Work Unit\PC\Footsteps\Stone\Footsteps, Stone, Male, Sneakers, Normal Tempo SND4064 (2)		28676
+	207495158	Obj-Dog_6	Y:\Desktop\sound-designer-alexei-avdoteiko\sound-designer-alexei-avdoteiko_WwiseProject\.cache\Mac\SFX\obj\Obj-Dog_6_477006A4.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\D_Dog\Obj-Dog_6		98906
+	216802389	mud - 0003 - Instrument - drums	Y:\Desktop\sound-designer-alexei-avdoteiko\sound-designer-alexei-avdoteiko_WwiseProject\.cache\Mac\SFX\mud - 0003 - Instrument - drums_850932ED.wem		\Interactive Music Hierarchy\Default Work Unit\Mud88\mix1\mud - 0003 - Instrument - drums		559655
+	221278569	Obj-TV_News_4	Y:\Desktop\sound-designer-alexei-avdoteiko\sound-designer-alexei-avdoteiko_WwiseProject\.cache\Mac\SFX\obj\Obj-TV_News_4_477006A4.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\D_TV\Obj-TV_News_4		574386
+	248734276	PC-Ftstps-Concrete_4	Y:\Desktop\sound-designer-alexei-avdoteiko\sound-designer-alexei-avdoteiko_WwiseProject\.cache\Mac\SFX\pc\PC-Ftstps-Concrete_4_477006A4.wem		\Actor-Mixer Hierarchy\Default Work Unit\PC\Footsteps\Concrete\PC-Ftstps-Concrete_4		24450
+	263677513	Obj-TV_News_3	Y:\Desktop\sound-designer-alexei-avdoteiko\sound-designer-alexei-avdoteiko_WwiseProject\.cache\Mac\SFX\obj\Obj-TV_News_3_477006A4.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\D_TV\Obj-TV_News_3		728494
+	290736932	Obj-Dog_3	Y:\Desktop\sound-designer-alexei-avdoteiko\sound-designer-alexei-avdoteiko_WwiseProject\.cache\Mac\SFX\obj\Obj-Dog_3_477006A4.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\D_Dog\Obj-Dog_3		40220
+	291199250	Amb-Buzz-Light_3	Y:\Desktop\sound-designer-alexei-avdoteiko\sound-designer-alexei-avdoteiko_WwiseProject\.cache\Mac\SFX\amb\Amb-Buzz-Light_3_38FB226F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Buzz Light\Amb-Buzz-Light_3		77719
+	306214851	Obj-Dog_5	Y:\Desktop\sound-designer-alexei-avdoteiko\sound-designer-alexei-avdoteiko_WwiseProject\.cache\Mac\SFX\obj\Obj-Dog_5_477006A4.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\D_Dog\Obj-Dog_5		52466
+	306908161	1	Y:\Desktop\sound-designer-alexei-avdoteiko\sound-designer-alexei-avdoteiko_WwiseProject\.cache\Mac\SFX\pc\jump_down\1_477006A4.wem		\Actor-Mixer Hierarchy\Default Work Unit\PC\Jump DOWN\1		11640
+	325431354	Amb-Birds-Traffic	Y:\Desktop\sound-designer-alexei-avdoteiko\sound-designer-alexei-avdoteiko_WwiseProject\.cache\Mac\SFX\amb\Amb-Birds-Traffic_850932ED.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Amb Outside\Amb-Birds-Traffic		465885
+	333390213	Obj-Drilling_5	Y:\Desktop\sound-designer-alexei-avdoteiko\sound-designer-alexei-avdoteiko_WwiseProject\.cache\Mac\SFX\obj\Obj-Drilling_5_477006A4.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\D_Constraction\Obj-Drilling_5		423454
+	338037336	Obj-Fight-VO_3	Y:\Desktop\sound-designer-alexei-avdoteiko\sound-designer-alexei-avdoteiko_WwiseProject\.cache\Mac\SFX\obj\Obj-Fight-VO_3_477006A4.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\D_Fight\Fight VO\Obj-Fight-VO_3		131778
+	354039275	D_Scream	Y:\Desktop\sound-designer-alexei-avdoteiko\sound-designer-alexei-avdoteiko_WwiseProject\.cache\Mac\SFX\obj\Obj-Scream_9BF8A7FE.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\D_Scream		3530080
+	377236351	Obj-Fight-Kick	Y:\Desktop\sound-designer-alexei-avdoteiko\sound-designer-alexei-avdoteiko_WwiseProject\.cache\Mac\SFX\obj\Obj-Fight-Kick_9BF8A7FE.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\D_Fight\Obj-Fight-Kick		874178
+	382137842	Amb-Buzz-Light_6	Y:\Desktop\sound-designer-alexei-avdoteiko\sound-designer-alexei-avdoteiko_WwiseProject\.cache\Mac\SFX\amb\Amb-Buzz-Light_6_38FB226F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Buzz Light\Amb-Buzz-Light_6		58151
+	433278624	Amb-Buzz-Light_1	Y:\Desktop\sound-designer-alexei-avdoteiko\sound-designer-alexei-avdoteiko_WwiseProject\.cache\Mac\SFX\amb\Amb-Buzz-Light_1_38FB226F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Buzz Light\Amb-Buzz-Light_1		103144
+	442841198	5	Y:\Desktop\sound-designer-alexei-avdoteiko\sound-designer-alexei-avdoteiko_WwiseProject\.cache\Mac\SFX\pc\jump_down\5_477006A4.wem		\Actor-Mixer Hierarchy\Default Work Unit\PC\Jump DOWN\5		12664
+	479781820	Obj-TV_News_2	Y:\Desktop\sound-designer-alexei-avdoteiko\sound-designer-alexei-avdoteiko_WwiseProject\.cache\Mac\SFX\obj\Obj-TV_News_2_477006A4.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\D_TV\Obj-TV_News_2		1624124
+	496522373	Footsteps, Stone, Male, Sneakers, Normal Tempo SND4064 (3)	Y:\Desktop\sound-designer-alexei-avdoteiko\sound-designer-alexei-avdoteiko_WwiseProject\.cache\Mac\SFX\pc\Footsteps, Stone, Male, Sneakers, Normal Tempo SND4064 (3)_477006A4.wem		\Actor-Mixer Hierarchy\Default Work Unit\PC\Footsteps\Stone\Footsteps, Stone, Male, Sneakers, Normal Tempo SND4064 (3)		62058
+	515987264	Obj-Drilling_1	Y:\Desktop\sound-designer-alexei-avdoteiko\sound-designer-alexei-avdoteiko_WwiseProject\.cache\Mac\SFX\obj\Obj-Drilling_1_477006A4.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\D_Constraction\Obj-Drilling_1		4140320
+	529292021	Amb-Buzz-Light_2	Y:\Desktop\sound-designer-alexei-avdoteiko\sound-designer-alexei-avdoteiko_WwiseProject\.cache\Mac\SFX\amb\Amb-Buzz-Light_2_38FB226F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Buzz Light\Amb-Buzz-Light_2		63019
+	558370372	Obj-Phone_3	Y:\Desktop\sound-designer-alexei-avdoteiko\sound-designer-alexei-avdoteiko_WwiseProject\.cache\Mac\SFX\obj\Obj-Phone_3_477006A4.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\D_Phone\Obj-Phone_3		164848
+	558790225	Obj-Drilling_2	Y:\Desktop\sound-designer-alexei-avdoteiko\sound-designer-alexei-avdoteiko_WwiseProject\.cache\Mac\SFX\obj\Obj-Drilling_2_477006A4.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\D_Constraction\Obj-Drilling_2		915498
+	560701469	Obj-Phone_2	Y:\Desktop\sound-designer-alexei-avdoteiko\sound-designer-alexei-avdoteiko_WwiseProject\.cache\Mac\SFX\obj\Obj-Phone_2_477006A4.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\D_Phone\Obj-Phone_2		187842
+	627821649	Obj-TV_News_5	Y:\Desktop\sound-designer-alexei-avdoteiko\sound-designer-alexei-avdoteiko_WwiseProject\.cache\Mac\SFX\obj\Obj-TV_News_5_477006A4.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\D_TV\Obj-TV_News_5		1246076
+	630053593	Obj-TV_News_1	Y:\Desktop\sound-designer-alexei-avdoteiko\sound-designer-alexei-avdoteiko_WwiseProject\.cache\Mac\SFX\obj\Obj-TV_News_1_477006A4.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\D_TV\Obj-TV_News_1		822500
+	670393845	Amb-RT	Y:\Desktop\sound-designer-alexei-avdoteiko\sound-designer-alexei-avdoteiko_WwiseProject\.cache\Mac\SFX\amb\Amb-RT_850932ED.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Amb-RT		566942
+	690024675	Amb-Buzz-Light_7	Y:\Desktop\sound-designer-alexei-avdoteiko\sound-designer-alexei-avdoteiko_WwiseProject\.cache\Mac\SFX\amb\Amb-Buzz-Light_7_38FB226F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Buzz Light\Amb-Buzz-Light_7		64251
+	722210265	Obj-Drilling_3	Y:\Desktop\sound-designer-alexei-avdoteiko\sound-designer-alexei-avdoteiko_WwiseProject\.cache\Mac\SFX\obj\Obj-Drilling_3_477006A4.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\D_Constraction\Obj-Drilling_3		519298
+	722982207	Obj-Fight-VO_1	Y:\Desktop\sound-designer-alexei-avdoteiko\sound-designer-alexei-avdoteiko_WwiseProject\.cache\Mac\SFX\obj\Obj-Fight-VO_1_477006A4.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\D_Fight\Fight VO\Obj-Fight-VO_1		162208
+	728494377	Footsteps, Stone, Male, Sneakers, Normal Tempo SND4064 (5)	Y:\Desktop\sound-designer-alexei-avdoteiko\sound-designer-alexei-avdoteiko_WwiseProject\.cache\Mac\SFX\pc\Footsteps, Stone, Male, Sneakers, Normal Tempo SND4064 (5)_477006A4.wem		\Actor-Mixer Hierarchy\Default Work Unit\PC\Footsteps\Stone\Footsteps, Stone, Male, Sneakers, Normal Tempo SND4064 (5)		52522
+	754789608	D_Drumming	Y:\Desktop\sound-designer-alexei-avdoteiko\sound-designer-alexei-avdoteiko_WwiseProject\.cache\Mac\SFX\obj\Obj-Drumming_9BF8A7FE.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\D_Drumming		2996338
+	761042801	Amb-Buzz-Light_5	Y:\Desktop\sound-designer-alexei-avdoteiko\sound-designer-alexei-avdoteiko_WwiseProject\.cache\Mac\SFX\amb\Amb-Buzz-Light_5_38FB226F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Buzz Light\Amb-Buzz-Light_5		62873
+	762636857	4	Y:\Desktop\sound-designer-alexei-avdoteiko\sound-designer-alexei-avdoteiko_WwiseProject\.cache\Mac\SFX\pc\jump_down\4_477006A4.wem		\Actor-Mixer Hierarchy\Default Work Unit\PC\Jump DOWN\4		25864
+	793510519	Amb-Wind	Y:\Desktop\sound-designer-alexei-avdoteiko\sound-designer-alexei-avdoteiko_WwiseProject\.cache\Mac\SFX\amb\Amb-Wind_850932ED.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Amb Outside\Amb-Wind		489311
+	799532717	Obj-Fight-VO_2	Y:\Desktop\sound-designer-alexei-avdoteiko\sound-designer-alexei-avdoteiko_WwiseProject\.cache\Mac\SFX\obj\Obj-Fight-VO_2_477006A4.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\D_Fight\Fight VO\Obj-Fight-VO_2		127804
+	816776405	Obj-Crowd_2	Y:\Desktop\sound-designer-alexei-avdoteiko\sound-designer-alexei-avdoteiko_WwiseProject\.cache\Mac\SFX\obj\Obj-Crowd_2_9BF8A7FE.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\D_Crowd\Obj-Crowd_2		1179678
+	845315859	PC-Ftstps-Concrete_3	Y:\Desktop\sound-designer-alexei-avdoteiko\sound-designer-alexei-avdoteiko_WwiseProject\.cache\Mac\SFX\pc\PC-Ftstps-Concrete_3_477006A4.wem		\Actor-Mixer Hierarchy\Default Work Unit\PC\Footsteps\Concrete\PC-Ftstps-Concrete_3		25674
+	858418874	Obj-Dog_2	Y:\Desktop\sound-designer-alexei-avdoteiko\sound-designer-alexei-avdoteiko_WwiseProject\.cache\Mac\SFX\obj\Obj-Dog_2_477006A4.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\D_Dog\Obj-Dog_2		49246
+	872774626	PC-Ftstps-Concrete_2	Y:\Desktop\sound-designer-alexei-avdoteiko\sound-designer-alexei-avdoteiko_WwiseProject\.cache\Mac\SFX\pc\PC-Ftstps-Concrete_2_477006A4.wem		\Actor-Mixer Hierarchy\Default Work Unit\PC\Footsteps\Concrete\PC-Ftstps-Concrete_2		50088
+	897845551	Obj-Drilling_4	Y:\Desktop\sound-designer-alexei-avdoteiko\sound-designer-alexei-avdoteiko_WwiseProject\.cache\Mac\SFX\obj\Obj-Drilling_4_477006A4.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\D_Constraction\Obj-Drilling_4		488402
+	906142471	2	Y:\Desktop\sound-designer-alexei-avdoteiko\sound-designer-alexei-avdoteiko_WwiseProject\.cache\Mac\SFX\pc\2_477006A4.wem		\Actor-Mixer Hierarchy\Default Work Unit\PC\Jump UP\2		100180
+	923701477	3	Y:\Desktop\sound-designer-alexei-avdoteiko\sound-designer-alexei-avdoteiko_WwiseProject\.cache\Mac\SFX\pc\jump_down\3_477006A4.wem		\Actor-Mixer Hierarchy\Default Work Unit\PC\Jump DOWN\3		13264
+	943859798	Obj-Fight-VO_4	Y:\Desktop\sound-designer-alexei-avdoteiko\sound-designer-alexei-avdoteiko_WwiseProject\.cache\Mac\SFX\obj\Obj-Fight-VO_4_477006A4.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\D_Fight\Fight VO\Obj-Fight-VO_4		73642
+	955952067	PC-Ftstps-Concrete_6	Y:\Desktop\sound-designer-alexei-avdoteiko\sound-designer-alexei-avdoteiko_WwiseProject\.cache\Mac\SFX\pc\PC-Ftstps-Concrete_6_477006A4.wem		\Actor-Mixer Hierarchy\Default Work Unit\PC\Footsteps\Concrete\PC-Ftstps-Concrete_6		27956
+	1005804275	2	Y:\Desktop\sound-designer-alexei-avdoteiko\sound-designer-alexei-avdoteiko_WwiseProject\.cache\Mac\SFX\pc\jump_down\2_477006A4.wem		\Actor-Mixer Hierarchy\Default Work Unit\PC\Jump DOWN\2		12964
+	1009554414	Obj-Phone_4	Y:\Desktop\sound-designer-alexei-avdoteiko\sound-designer-alexei-avdoteiko_WwiseProject\.cache\Mac\SFX\obj\Obj-Phone_4_477006A4.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\D_Phone\Obj-Phone_4		172514
+	1043847574	PC-Ftstps-Concrete_5	Y:\Desktop\sound-designer-alexei-avdoteiko\sound-designer-alexei-avdoteiko_WwiseProject\.cache\Mac\SFX\pc\PC-Ftstps-Concrete_5_477006A4.wem		\Actor-Mixer Hierarchy\Default Work Unit\PC\Footsteps\Concrete\PC-Ftstps-Concrete_5		46150
+	1048222182	D_Sex	Y:\Desktop\sound-designer-alexei-avdoteiko\sound-designer-alexei-avdoteiko_WwiseProject\.cache\Mac\SFX\obj\Obj-Sex_9BF8A7FE.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\D_Sex		2433796
+	1048526422	6	Y:\Desktop\sound-designer-alexei-avdoteiko\sound-designer-alexei-avdoteiko_WwiseProject\.cache\Mac\SFX\pc\jump_down\6_477006A4.wem		\Actor-Mixer Hierarchy\Default Work Unit\PC\Jump DOWN\6		20764
+	1052949353	Obj-Dog_4	Y:\Desktop\sound-designer-alexei-avdoteiko\sound-designer-alexei-avdoteiko_WwiseProject\.cache\Mac\SFX\obj\Obj-Dog_4_477006A4.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\D_Dog\Obj-Dog_4		45240
+	1058522411	Obj-Phone_1	Y:\Desktop\sound-designer-alexei-avdoteiko\sound-designer-alexei-avdoteiko_WwiseProject\.cache\Mac\SFX\obj\Obj-Phone_1_477006A4.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\D_Phone\Obj-Phone_1		201776
+	1059221806	mud - 0002 - Instrument - bass	Y:\Desktop\sound-designer-alexei-avdoteiko\sound-designer-alexei-avdoteiko_WwiseProject\.cache\Mac\SFX\mud - 0002 - Instrument - bass_850932ED.wem		\Interactive Music Hierarchy\Default Work Unit\Mud88\mix1\mud - 0002 - Instrument - bass		823836
 

@@ -11,25 +11,361 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Language="SFX" Hash="4204904655">
+		<SoundBank Id="1355168291" Language="SFX" Hash="3994168547">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
+			<IncludedAuxBusses>
+				<AuxBus Id="35548098" Name="Reverb_2" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\Reverb_2"/>
+				<AuxBus Id="348963605" Name="Reverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\Reverb"/>
+			</IncludedAuxBusses>
 		</SoundBank>
-		<SoundBank Id="4056684167" Language="SFX" Hash="3308945584">
+		<SoundBank Id="4056684167" Language="SFX" Hash="2967557691">
 			<ObjectPath>\SoundBanks\Default Work Unit\master</ObjectPath>
 			<ShortName>master</ShortName>
 			<Path>master.bnk</Path>
 			<IncludedEvents>
-				<Event Id="2678880713" Name="fire" ObjectPath="\Events\Default Work Unit\fire" MaxAttenuation="25.000000" DurationType="Infinite">
+				<Event Id="1564366702" Name="Amb_Inside" ObjectPath="\Events\Default Work Unit\Amb_Inside" DurationType="Infinite">
 					<IncludedMemoryFiles>
-						<File Id="917922186" Language="SFX">
-							<ShortName>OBJ-fire-torch-loop.wav</ShortName>
-							<Path>SFX/OBJ-fire-torch-loop_D79FB2B7.wem</Path>
+						<File Id="670393845" Language="SFX">
+							<ShortName>amb\Amb-RT.wav</ShortName>
+							<Path>SFX/amb/Amb-RT_850932ED.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1013211851" Name="Amb_Outside" ObjectPath="\Events\Default Work Unit\Amb_Outside" MaxAttenuation="20.000000" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="325431354" Language="SFX">
+							<ShortName>amb\Amb-Birds-Traffic.wav</ShortName>
+							<Path>SFX/amb/Amb-Birds-Traffic_850932ED.wem</Path>
+						</File>
+						<File Id="793510519" Language="SFX">
+							<ShortName>amb\Amb-Wind.wav</ShortName>
+							<Path>SFX/amb/Amb-Wind_850932ED.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3218541849" Name="D_Constraction" ObjectPath="\Events\Default Work Unit\D_Constraction" MaxAttenuation="8.000000" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="168701595" Language="SFX">
+							<ShortName>obj\Obj-Drilling_6.wav</ShortName>
+							<Path>SFX/obj/Obj-Drilling_6_477006A4.wem</Path>
+						</File>
+						<File Id="333390213" Language="SFX">
+							<ShortName>obj\Obj-Drilling_5.wav</ShortName>
+							<Path>SFX/obj/Obj-Drilling_5_477006A4.wem</Path>
+						</File>
+						<File Id="515987264" Language="SFX">
+							<ShortName>obj\Obj-Drilling_1.wav</ShortName>
+							<Path>SFX/obj/Obj-Drilling_1_477006A4.wem</Path>
+						</File>
+						<File Id="558790225" Language="SFX">
+							<ShortName>obj\Obj-Drilling_2.wav</ShortName>
+							<Path>SFX/obj/Obj-Drilling_2_477006A4.wem</Path>
+						</File>
+						<File Id="722210265" Language="SFX">
+							<ShortName>obj\Obj-Drilling_3.wav</ShortName>
+							<Path>SFX/obj/Obj-Drilling_3_477006A4.wem</Path>
+						</File>
+						<File Id="897845551" Language="SFX">
+							<ShortName>obj\Obj-Drilling_4.wav</ShortName>
+							<Path>SFX/obj/Obj-Drilling_4_477006A4.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1589574917" Name="D_Crowd" ObjectPath="\Events\Default Work Unit\D_Crowd" MaxAttenuation="8.000000" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="46320846" Language="SFX">
+							<ShortName>obj\Obj-Crowd_1.wav</ShortName>
+							<Path>SFX/obj/Obj-Crowd_1_9BF8A7FE.wem</Path>
+						</File>
+						<File Id="816776405" Language="SFX">
+							<ShortName>obj\Obj-Crowd_2.wav</ShortName>
+							<Path>SFX/obj/Obj-Crowd_2_9BF8A7FE.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="4001482824" Name="D_Dog" ObjectPath="\Events\Default Work Unit\D_Dog" MaxAttenuation="8.000000" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="37949936" Language="SFX">
+							<ShortName>obj\Obj-Dog_1.wav</ShortName>
+							<Path>SFX/obj/Obj-Dog_1_477006A4.wem</Path>
+						</File>
+						<File Id="207495158" Language="SFX">
+							<ShortName>obj\Obj-Dog_6.wav</ShortName>
+							<Path>SFX/obj/Obj-Dog_6_477006A4.wem</Path>
+						</File>
+						<File Id="290736932" Language="SFX">
+							<ShortName>obj\Obj-Dog_3.wav</ShortName>
+							<Path>SFX/obj/Obj-Dog_3_477006A4.wem</Path>
+						</File>
+						<File Id="306214851" Language="SFX">
+							<ShortName>obj\Obj-Dog_5.wav</ShortName>
+							<Path>SFX/obj/Obj-Dog_5_477006A4.wem</Path>
+						</File>
+						<File Id="858418874" Language="SFX">
+							<ShortName>obj\Obj-Dog_2.wav</ShortName>
+							<Path>SFX/obj/Obj-Dog_2_477006A4.wem</Path>
+						</File>
+						<File Id="1052949353" Language="SFX">
+							<ShortName>obj\Obj-Dog_4.wav</ShortName>
+							<Path>SFX/obj/Obj-Dog_4_477006A4.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3445241757" Name="D_Drumming" ObjectPath="\Events\Default Work Unit\D_Drumming" MaxAttenuation="8.000000" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="754789608" Language="SFX">
+							<ShortName>obj\Obj-Drumming.wav</ShortName>
+							<Path>SFX/obj/Obj-Drumming_9BF8A7FE.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2021402380" Name="D_Fight" ObjectPath="\Events\Default Work Unit\D_Fight" MaxAttenuation="8.000000" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="110043504" Language="SFX">
+							<ShortName>obj\Obj-Fight-VO_5.wav</ShortName>
+							<Path>SFX/obj/Obj-Fight-VO_5_477006A4.wem</Path>
+						</File>
+						<File Id="338037336" Language="SFX">
+							<ShortName>obj\Obj-Fight-VO_3.wav</ShortName>
+							<Path>SFX/obj/Obj-Fight-VO_3_477006A4.wem</Path>
+						</File>
+						<File Id="377236351" Language="SFX">
+							<ShortName>obj\Obj-Fight-Kick.wav</ShortName>
+							<Path>SFX/obj/Obj-Fight-Kick_9BF8A7FE.wem</Path>
+						</File>
+						<File Id="722982207" Language="SFX">
+							<ShortName>obj\Obj-Fight-VO_1.wav</ShortName>
+							<Path>SFX/obj/Obj-Fight-VO_1_477006A4.wem</Path>
+						</File>
+						<File Id="799532717" Language="SFX">
+							<ShortName>obj\Obj-Fight-VO_2.wav</ShortName>
+							<Path>SFX/obj/Obj-Fight-VO_2_477006A4.wem</Path>
+						</File>
+						<File Id="943859798" Language="SFX">
+							<ShortName>obj\Obj-Fight-VO_4.wav</ShortName>
+							<Path>SFX/obj/Obj-Fight-VO_4_477006A4.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="4204937310" Name="D_Phone" ObjectPath="\Events\Default Work Unit\D_Phone" MaxAttenuation="8.000000" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="558370372" Language="SFX">
+							<ShortName>obj\Obj-Phone_3.wav</ShortName>
+							<Path>SFX/obj/Obj-Phone_3_477006A4.wem</Path>
+						</File>
+						<File Id="560701469" Language="SFX">
+							<ShortName>obj\Obj-Phone_2.wav</ShortName>
+							<Path>SFX/obj/Obj-Phone_2_477006A4.wem</Path>
+						</File>
+						<File Id="1009554414" Language="SFX">
+							<ShortName>obj\Obj-Phone_4.wav</ShortName>
+							<Path>SFX/obj/Obj-Phone_4_477006A4.wem</Path>
+						</File>
+						<File Id="1058522411" Language="SFX">
+							<ShortName>obj\Obj-Phone_1.wav</ShortName>
+							<Path>SFX/obj/Obj-Phone_1_477006A4.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3357276237" Name="D_Scream" ObjectPath="\Events\Default Work Unit\D_Scream" MaxAttenuation="8.000000" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="354039275" Language="SFX">
+							<ShortName>obj\Obj-Scream.wav</ShortName>
+							<Path>SFX/obj/Obj-Scream_9BF8A7FE.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3628976722" Name="D_Sex" ObjectPath="\Events\Default Work Unit\D_Sex" MaxAttenuation="8.000000" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="1048222182" Language="SFX">
+							<ShortName>obj\Obj-Sex.wav</ShortName>
+							<Path>SFX/obj/Obj-Sex_9BF8A7FE.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2305070748" Name="D_TV" ObjectPath="\Events\Default Work Unit\D_TV" MaxAttenuation="8.000000" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="221278569" Language="SFX">
+							<ShortName>obj\Obj-TV_News_4.wav</ShortName>
+							<Path>SFX/obj/Obj-TV_News_4_477006A4.wem</Path>
+						</File>
+						<File Id="263677513" Language="SFX">
+							<ShortName>obj\Obj-TV_News_3.wav</ShortName>
+							<Path>SFX/obj/Obj-TV_News_3_477006A4.wem</Path>
+						</File>
+						<File Id="479781820" Language="SFX">
+							<ShortName>obj\Obj-TV_News_2.wav</ShortName>
+							<Path>SFX/obj/Obj-TV_News_2_477006A4.wem</Path>
+						</File>
+						<File Id="627821649" Language="SFX">
+							<ShortName>obj\Obj-TV_News_5.wav</ShortName>
+							<Path>SFX/obj/Obj-TV_News_5_477006A4.wem</Path>
+						</File>
+						<File Id="630053593" Language="SFX">
+							<ShortName>obj\Obj-TV_News_1.wav</ShortName>
+							<Path>SFX/obj/Obj-TV_News_1_477006A4.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3031504797" Name="Foot" ObjectPath="\Events\Default Work Unit\Foot" DurationType="OneShot" DurationMin="0.417114" DurationMax="0.684566">
+					<IncludedMemoryFiles>
+						<File Id="10186480" Language="SFX">
+							<ShortName>pc\PC-Ftstps-Concrete_1.wav</ShortName>
+							<Path>SFX/pc/PC-Ftstps-Concrete_1_477006A4.wem</Path>
+						</File>
+						<File Id="127313855" Language="SFX">
+							<ShortName>pc\Footsteps, Stone, Male, Sneakers, Normal Tempo SND4064 (4).wav</ShortName>
+							<Path>SFX/pc/Footsteps, Stone, Male, Sneakers, Normal Tempo SND4064 (4)_477006A4.wem</Path>
+						</File>
+						<File Id="184097812" Language="SFX">
+							<ShortName>pc\Footsteps, Stone, Male, Sneakers, Normal Tempo SND4064 (2).wav</ShortName>
+							<Path>SFX/pc/Footsteps, Stone, Male, Sneakers, Normal Tempo SND4064 (2)_477006A4.wem</Path>
+						</File>
+						<File Id="248734276" Language="SFX">
+							<ShortName>pc\PC-Ftstps-Concrete_4.wav</ShortName>
+							<Path>SFX/pc/PC-Ftstps-Concrete_4_477006A4.wem</Path>
+						</File>
+						<File Id="496522373" Language="SFX">
+							<ShortName>pc\Footsteps, Stone, Male, Sneakers, Normal Tempo SND4064 (3).wav</ShortName>
+							<Path>SFX/pc/Footsteps, Stone, Male, Sneakers, Normal Tempo SND4064 (3)_477006A4.wem</Path>
+						</File>
+						<File Id="728494377" Language="SFX">
+							<ShortName>pc\Footsteps, Stone, Male, Sneakers, Normal Tempo SND4064 (5).wav</ShortName>
+							<Path>SFX/pc/Footsteps, Stone, Male, Sneakers, Normal Tempo SND4064 (5)_477006A4.wem</Path>
+						</File>
+						<File Id="845315859" Language="SFX">
+							<ShortName>pc\PC-Ftstps-Concrete_3.wav</ShortName>
+							<Path>SFX/pc/PC-Ftstps-Concrete_3_477006A4.wem</Path>
+						</File>
+						<File Id="872774626" Language="SFX">
+							<ShortName>pc\PC-Ftstps-Concrete_2.wav</ShortName>
+							<Path>SFX/pc/PC-Ftstps-Concrete_2_477006A4.wem</Path>
+						</File>
+						<File Id="955952067" Language="SFX">
+							<ShortName>pc\PC-Ftstps-Concrete_6.wav</ShortName>
+							<Path>SFX/pc/PC-Ftstps-Concrete_6_477006A4.wem</Path>
+						</File>
+						<File Id="1043847574" Language="SFX">
+							<ShortName>pc\PC-Ftstps-Concrete_5.wav</ShortName>
+							<Path>SFX/pc/PC-Ftstps-Concrete_5_477006A4.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<DefaultSwitchValue>{3141F2C9-EFF6-4CD2-A520-A9B7DDF453BC}</DefaultSwitchValue>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{5C030A3E-8C83-4862-822D-9B004B369895}">
+							<Media>
+								<File Id="127313855"/>
+								<File Id="184097812"/>
+								<File Id="496522373"/>
+								<File Id="728494377"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{3141F2C9-EFF6-4CD2-A520-A9B7DDF453BC}">
+							<Media>
+								<File Id="10186480"/>
+								<File Id="248734276"/>
+								<File Id="845315859"/>
+								<File Id="872774626"/>
+								<File Id="955952067"/>
+								<File Id="1043847574"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="3833651337" Name="Jump" ObjectPath="\Events\Default Work Unit\Jump" DurationType="OneShot" DurationMin="0.551226" DurationMax="0.600402">
+					<IncludedMemoryFiles>
+						<File Id="306908161" Language="SFX">
+							<ShortName>pc\jump_down\1.wav</ShortName>
+							<Path>SFX/pc/jump_down/1_477006A4.wem</Path>
+						</File>
+						<File Id="442841198" Language="SFX">
+							<ShortName>pc\jump_down\5.wav</ShortName>
+							<Path>SFX/pc/jump_down/5_477006A4.wem</Path>
+						</File>
+						<File Id="762636857" Language="SFX">
+							<ShortName>pc\jump_down\4.wav</ShortName>
+							<Path>SFX/pc/jump_down/4_477006A4.wem</Path>
+						</File>
+						<File Id="906142471" Language="SFX">
+							<ShortName>pc\2.wav</ShortName>
+							<Path>SFX/pc/2_477006A4.wem</Path>
+						</File>
+						<File Id="923701477" Language="SFX">
+							<ShortName>pc\jump_down\3.wav</ShortName>
+							<Path>SFX/pc/jump_down/3_477006A4.wem</Path>
+						</File>
+						<File Id="1005804275" Language="SFX">
+							<ShortName>pc\jump_down\2.wav</ShortName>
+							<Path>SFX/pc/jump_down/2_477006A4.wem</Path>
+						</File>
+						<File Id="1048526422" Language="SFX">
+							<ShortName>pc\jump_down\6.wav</ShortName>
+							<Path>SFX/pc/jump_down/6_477006A4.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="657744959" Name="Lamp" ObjectPath="\Events\Default Work Unit\Lamp" MaxAttenuation="5.000000" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="48770695" Language="SFX">
+							<ShortName>amb\Amb-Buzz-Light_4.wav</ShortName>
+							<Path>SFX/amb/Amb-Buzz-Light_4_38FB226F.wem</Path>
+						</File>
+						<File Id="291199250" Language="SFX">
+							<ShortName>amb\Amb-Buzz-Light_3.wav</ShortName>
+							<Path>SFX/amb/Amb-Buzz-Light_3_38FB226F.wem</Path>
+						</File>
+						<File Id="382137842" Language="SFX">
+							<ShortName>amb\Amb-Buzz-Light_6.wav</ShortName>
+							<Path>SFX/amb/Amb-Buzz-Light_6_38FB226F.wem</Path>
+						</File>
+						<File Id="433278624" Language="SFX">
+							<ShortName>amb\Amb-Buzz-Light_1.wav</ShortName>
+							<Path>SFX/amb/Amb-Buzz-Light_1_38FB226F.wem</Path>
+						</File>
+						<File Id="529292021" Language="SFX">
+							<ShortName>amb\Amb-Buzz-Light_2.wav</ShortName>
+							<Path>SFX/amb/Amb-Buzz-Light_2_38FB226F.wem</Path>
+						</File>
+						<File Id="690024675" Language="SFX">
+							<ShortName>amb\Amb-Buzz-Light_7.wav</ShortName>
+							<Path>SFX/amb/Amb-Buzz-Light_7_38FB226F.wem</Path>
+						</File>
+						<File Id="761042801" Language="SFX">
+							<ShortName>amb\Amb-Buzz-Light_5.wav</ShortName>
+							<Path>SFX/amb/Amb-Buzz-Light_5_38FB226F.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3725903807" Name="Music_Start" ObjectPath="\Events\Default Work Unit\Music_Start" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="61779686" Language="SFX">
+							<ShortName>mud - 0001 - Instrument - piano.wav</ShortName>
+							<Path>SFX/mud - 0001 - Instrument - piano_850932ED.wem</Path>
+						</File>
+						<File Id="216802389" Language="SFX">
+							<ShortName>mud - 0003 - Instrument - drums.wav</ShortName>
+							<Path>SFX/mud - 0003 - Instrument - drums_850932ED.wem</Path>
+						</File>
+						<File Id="1059221806" Language="SFX">
+							<ShortName>mud - 0002 - Instrument - bass.wav</ShortName>
+							<Path>SFX/mud - 0002 - Instrument - bass_850932ED.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
 			</IncludedEvents>
+			<GameParameters>
+				<GameParameter Id="1437246667" Name="Azimuth" ObjectPath="\Game Parameters\Default Work Unit\Azimuth"/>
+			</GameParameters>
+			<SwitchGroups>
+				<SwitchGroup Id="1834394558" Name="Surface" ObjectPath="\Switches\Default Work Unit\Surface">
+					<Switches>
+						<Switch Id="1216965916" Name="Stone" ObjectPath="\Switches\Default Work Unit\Surface\Stone"/>
+						<Switch Id="841620460" Name="Concrete" ObjectPath="\Switches\Default Work Unit\Surface\Concrete"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
 </SoundBanksInfo>

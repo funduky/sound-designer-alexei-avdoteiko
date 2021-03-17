@@ -5,7 +5,21 @@
 			<ChildrenList>
 				<SoundBank Name="master" ID="{1402581C-53B2-4A42-84C8-F634314D3ABC}">
 					<ObjectInclusionList>
-						<ObjectRef Name="fire" ID="{A0F67554-60C4-43B8-8AC5-707C8AD6D366}" WorkUnitID="{3F16C368-FBE1-4BD8-823C-8B21419FFD62}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="D_Phone" ID="{4D83BB5E-6F30-4171-8399-90A5824677F1}" WorkUnitID="{3F16C368-FBE1-4BD8-823C-8B21419FFD62}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="D_Sex" ID="{E9A2328A-E498-4290-BA47-E976EF5F548B}" WorkUnitID="{3F16C368-FBE1-4BD8-823C-8B21419FFD62}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="D_Crowd" ID="{A2D61F0F-C99A-4306-B3F7-781DE36C1539}" WorkUnitID="{3F16C368-FBE1-4BD8-823C-8B21419FFD62}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Foot" ID="{835B089B-7960-4353-ADB3-84152BE21E94}" WorkUnitID="{3F16C368-FBE1-4BD8-823C-8B21419FFD62}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Amb_Inside" ID="{63EC5BBE-692D-442C-99CA-2427813E4129}" WorkUnitID="{3F16C368-FBE1-4BD8-823C-8B21419FFD62}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="D_Dog" ID="{9C66A387-717A-45B7-AD26-9C4E2B362B44}" WorkUnitID="{3F16C368-FBE1-4BD8-823C-8B21419FFD62}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Amb_Outside" ID="{355B59C1-6C5E-45D1-8C90-B035A6557B0A}" WorkUnitID="{3F16C368-FBE1-4BD8-823C-8B21419FFD62}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="D_TV" ID="{D2DF3F33-3B1A-4802-9473-042C1373A950}" WorkUnitID="{3F16C368-FBE1-4BD8-823C-8B21419FFD62}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Lamp" ID="{CE43A971-4709-49ED-B6A1-2CD845B07AA5}" WorkUnitID="{3F16C368-FBE1-4BD8-823C-8B21419FFD62}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="D_Constraction" ID="{3FFDD4DA-BDF6-4A12-9E29-E50D9CA697F0}" WorkUnitID="{3F16C368-FBE1-4BD8-823C-8B21419FFD62}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="D_Fight" ID="{9AAC50DA-15B1-4BBD-9EC9-B7EFEDFC09CA}" WorkUnitID="{3F16C368-FBE1-4BD8-823C-8B21419FFD62}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="D_Drumming" ID="{11D04006-68E4-4C29-9A23-64033F6907D6}" WorkUnitID="{3F16C368-FBE1-4BD8-823C-8B21419FFD62}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="D_Scream" ID="{9383039F-CC14-4C73-8CCC-A1F3E56EF861}" WorkUnitID="{3F16C368-FBE1-4BD8-823C-8B21419FFD62}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Music_Start" ID="{A9F15C70-1D84-4DA2-BAD6-7B950DCC0A7B}" WorkUnitID="{3F16C368-FBE1-4BD8-823C-8B21419FFD62}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Jump" ID="{68DFFDEE-33F4-4E64-A1E6-8925AB082564}" WorkUnitID="{3F16C368-FBE1-4BD8-823C-8B21419FFD62}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

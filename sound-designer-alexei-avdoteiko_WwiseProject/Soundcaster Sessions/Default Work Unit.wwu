@@ -1,6 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{1630BD03-9948-4827-BDBD-74D844C3368F}" SchemaVersion="97">
 	<SoundcasterSessions>
-		<WorkUnit Name="Default Work Unit" ID="{1630BD03-9948-4827-BDBD-74D844C3368F}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{1630BD03-9948-4827-BDBD-74D844C3368F}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="MASTER" ID="{EAA06CB8-945F-41E5-BAAF-DC497F9A46BD}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Foot" ID="{835B089B-7960-4353-ADB3-84152BE21E94}" WorkUnitID="{3F16C368-FBE1-4BD8-823C-8B21419FFD62}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="Azimuth" ID="{AD218BF6-9C33-4056-B6E6-995537F89407}"/>
+							<Value>0.286168521462628</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="Concrete" ID="{3141F2C9-EFF6-4CD2-A520-A9B7DDF453BC}"/>
+					</CurrentSwitchList>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
 	</SoundcasterSessions>
 </WwiseDocument>
